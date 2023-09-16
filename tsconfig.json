@@ -1,4 +1,4 @@
-{
+{ //Este archivo solo nos va aparecer si hemos seleccionado TypeScript como nuestro lenguaje de trabajo
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
@@ -20,15 +20,15 @@
         "src/*"
       ]
     },
-    "lib": [
+    "lib": [ //Librerias
       "esnext",
       "dom",
       "dom.iterable",
       "scripthost"
     ]
   },
-  "include": [
-    "src/**/*.ts",
+  "include": [ //Elementos incluyendo para ser interpretado como TypeScript,
+    "src/**/*.ts", //por ejemplo todos los documentos de 'src' que acaben en '.ts'
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
